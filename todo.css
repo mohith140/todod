@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #c6e164;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  #div1 {
+    margin-bottom: 20px;
+  }
+  
+  #input, #editInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #btn, #save {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #btn:hover, #save:hover {
+    background-color: #218838;
+  }
+  
+  #editDiv {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #div2 {
+    margin-top: 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .para {
+     margin :0; 
+     font-size :18px; 
+     flex-grow :1; 
+     text-align :left; 
+  }
+  .edit-btn, .delete-btn { 
+     margin-left :10px; 
+     padding :5px; 
+     font-size :14px; 
+     border :none; 
+     border-radius :5px; 
+     cursor:pointer; 
+  } 
+  
+  .edit-btn { 
+     background-color :#28a745; 
+     color:white; 
+  } 
+  
+  .edit-btn:hover { 
+     background-color :#218838; 
+  } 
+  
+  .delete-btn { 
+     background-color :#dc3545; 
+     color:white; 
+  } 
+  
+  .delete-btn:hover { 
+     background-color :#c82333; 
+  }
