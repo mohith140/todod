@@ -101,3 +101,62 @@ body {
   .delete-btn:hover { 
      background-color :#c82333; 
   }
+
+
+@media (max-width: 768px) {
+    #input, #editInput {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    #btn, #save {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .task {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .edit-btn, .delete-btn {
+        margin-left: 0;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    #div2 {
+        max-width: 90%;
+    }
+}
+
+/* For extra small screens like very small phones */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #input, #editInput {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    #btn, #save {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .task {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .edit-btn, .delete-btn {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    #div2 {
+        max-width: 100%;
+    }
+}
